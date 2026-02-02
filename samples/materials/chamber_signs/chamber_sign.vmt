@@ -1,0 +1,11 @@
+PBR {
+    $basetexture "_hr/signage/chamber_signs/chamber_sign_basecolor"
+    $basetexturetransform "center 0.125 0.125 scale 4 4 rotate 0 translate 0 0"
+    $bumpmap "_hr/signage/chamber_signs/chamber_sign_normal"
+    $emissiontexture "_hr/signage/chamber_signs/chamber_sign_emission"
+    $mraotexture "_hr/signage/chamber_signs/chamber_sign_mrao"
+
+    $parallax 1
+    $parallaxcenter 0
+    $parallaxdepth 0.05
+}

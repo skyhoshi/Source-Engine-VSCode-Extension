@@ -6,6 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 Versioning adheres to a loose semver scheme.
 
+## [1.4.0]
+
+**VMT**
+- Added parameters $parallax $parallaxcenter $parallaxdepth $basetexturetransform
+
+**Snippets**
+- Removed $envmap parameter from PBR snippet
+
 ## [1.3.1]
 
 **VMT**
