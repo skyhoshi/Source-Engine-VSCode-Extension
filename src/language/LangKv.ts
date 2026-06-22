@@ -30,10 +30,10 @@ export class KeyvalueSemanticTokensProvider extends KvTokensProviderBase {
 
     protected keyProcessors: KvSemanticProcessor[] = [];
     protected valueProcessors: KvSemanticProcessor[] =
-    [
-        { regex: /^-?\d+(\.\d+)?$/, processor: this.processValueNumber },
-        { regex: matrixRegExp, processor: this.processValueArray }
-    ];
+        [
+            { regex: /^-?\d+(\.\d+)?$/, processor: this.processValueNumber },
+            { regex: matrixRegExp, processor: this.processValueArray }
+        ];
 
     constructor() {
         super(KvDocument.tokenLegend, vscode.languages.createDiagnosticCollection("keyvalue"));

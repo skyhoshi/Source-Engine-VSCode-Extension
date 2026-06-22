@@ -426,6 +426,8 @@
         }
     },
     "devDependencies": {
+        "@eslint/eslintrc": "^3.3.5",
+        "@eslint/js": "^10.0.1",
         "@types/node": "^26.0.0",
         "@types/vscode": "^1.125.0",
         "@typescript-eslint/eslint-plugin": "^8.61.1",
